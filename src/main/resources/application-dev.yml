@@ -1,0 +1,13 @@
+# src/main/resources/application.yml
+spring:
+  application:
+    name: codegen-ai
+
+openai:
+  api:
+    key: "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"
+    url: "https://openrouter.ai/api/v1/chat/completions"
+    model: "deepseek/deepseek-r1-zero:free"
+
+server:
+  port: 8090
